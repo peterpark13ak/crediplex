@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "category_id":1,
+        "name":"Nomina"    
+    },
+    {
+        "id":2,
+        "category_id":1,
+        "name":"Educacion"
+    },
+    {
+        "id":3,
+        "category_id":1,
+        "name":"Comercio"
+    },
+    {
+        "id":4,
+        "category_id":1,
+        "name":"-"
+    }
+]

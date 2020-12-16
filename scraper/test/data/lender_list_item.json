@@ -1,0 +1,12 @@
+
+{
+    "type": "lender",
+    "data": {
+        "name": "Grupo Anisal, S.A. de C.V., SOFOM, E.N.R.",
+        "external_id": "3666",
+        "lender_details_url": "https://webapps.condusef.gob.mx/SIPRES/jsp/home_publico.jsp?idins=3666",
+        "trade_association": "-",
+        "main_activity": "Crédito Personal",
+        "lender_product_link": "http://ifit.condusef.gob.mx/ifit/ftb_validaciones.php?idi=3666"
+    }
+}

@@ -1,0 +1,200 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+    <link rel="shortcut icon" type="image/jpg" href="imgs/favicon.ico" />
+    <title>CONDUSEF ..:::.. SIPRES</title>
+    <meta http-equiv="Content-Language" content="en-us" />
+    <script type="text/javascript">var GB_ROOT_DIR = "pub/greybox/";</script>
+    <link href="pub/greybox/gb_styles.css" rel="stylesheet" type="text/css" media="all" />
+    <script type="text/javascript" src="pub/greybox/AJS.js"></script>
+    <script type="text/javascript" src="pub/greybox/AJS_fx.js"></script>
+    <script type="text/javascript" src="pub/greybox/gb_scripts.js"></script>
+    <script type='text/javascript' src='../js/jquery-1.7.1.min.js'></script>
+    <script type='text/javascript' src='../js/jquery.qtip-1.0.0-rc3.min.js'></script>
+    <script type="text/javascript" src="../js/jquery-ui.min.js"></script>
+    <script type='text/javascript' src='../js/jquery.corner.js'></script>
+    <script type='text/javascript' src='../js/libreriaAjax.js'></script>
+    <script type='text/javascript' src='../js/libreriaAjaxeval.js'></script>
+    <script type='text/javascript' src='../js/funciones_publico.js'></script>
+    <script type='text/javascript' src='../js/funciones_dinamicos.js'></script>
+    <script type='text/javascript' src='../js/funciones_validacion.js'></script>
+    <link rel="stylesheet" type="text/css" href="../css/thickbox.css" />
+    <link rel="stylesheet" type="text/css" href="../css/estilotab.css" />
+    <link rel="stylesheet" type="text/css" href="../css/jquery-ui.css" />
+    
+    <script type="text/javascript">
+		
+        $().ready(function() {
+
+            $('div.slider-wrap').wrap('<div class="outer"></div>');
+            $('div.slider-wrap').corner("round 8px").parent().css('padding', '2px').corner("round 10px")
+            $(".textbox").bind('focus blur',function(){$(this).toggleClass('focus')});
+            $("textarea").bind('focus blur',function(){$(this).toggleClass('focus')});
+            var parametros = 'idins=14376';
+            FAjax('domicilios_pub.jsp'  ,'divdomicilios' ,parametros,'POST');
+            activa_qtip("");
+            $('#divlogoif').qtip({
+                // Simply use an HTML img tag within the HTML string
+                content: '<img width="400" src="https://webapps.condusef.gob.mx/SistRegistro/LOGOS/14376_28066_1_3.png"/>'
+                ,style:{
+                    width:400,
+                    tip: true
+                }
+                ,position:{
+                    corner: {
+                        target:'bottomMiddle',
+                        tooltip:'topRight'
+                    }
+                }
+             });
+        });
+    </script>
+    <script type="text/javascript">
+
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-11440832-39']);
+          _gaq.push(['_setDomainName', 'condusef.gob.mx']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+
+    </script>
+</head>
+
+<body oncontextmenu='return false;'>
+
+<noscript>
+	<p>Unfortunately your browser does not hava JavaScript capabilities which are required to exploit full functionality of our site. This could be the result of two possible scenarios:</p>
+	<ol>
+		<li>You are using an old web browser, in which case you should upgrade it to a newer version. We recommend the latest version of <a href="http://www.getfirefox.com">Firefox</a>.</li>
+		<li>You have disabled JavaScript in you browser, in which case you will have to enable it to properly use our site. <a href="http://www.google.com/support/bin/answer.py?answer=23852">Information on enabling JavaScript</a>.</li>
+	</ol>
+</noscript>
+<!-------------------------------------------Datos generales--------------------------------------------------->
+<br/>
+
+
+<div class="titsecc"><img src="../imgs/vineta.png" />&nbsp;Datos Generales &nbsp;</div>
+<div class="slider-wrap">
+    <div class="wrapper" >
+        
+    <div id='divlogoif' style='position: absolute; z-index: 10; top: -70px; right: 0px;border:2px solid #eaeaea;'>
+        <img style="max-height:60px; max-width: 700px;" src='https://webapps.condusef.gob.mx/SistRegistro/LOGOS/14376_28066_1_3.png' />
+    </div>
+
+        
+        <input style="display: none;" type="hidden" id="lleno_datgrales" name="lleno_datgrales" value="0" />
+        <input style="display: none;" type="hidden" id="tiporeg" name="tiporeg" value="1" /><!--indicara 0=nuevo registro,  1=actualizacion-->
+        <input style="display: none;" type="hidden" id="idrol" name="idrol" value="4" />
+      
+        <table align="center" width="95%" cellpadding='0' cellspacing='0'><tr><td align='left'>
+            <table border='0' cellpadding='0' cellspacing='0'><tr><td>
+                <img src="../imgs/vineta.png" /><a href="#0"><b class="boton" alt="Relaciones con otra(s) Institución(es)" title="Relaciones con otra(s) Institución(es)" onclick='GB_showCenter("CONDUSEF - SIPRES","../../denomant.jsp?idins="+document.getElementById("idins").value+"&idrol=4",600,800);' >&nbsp;Denominación Social *</b></a>
+                
+                <span><input type="text" readonly class="textboxif" name="nombreif"  id="nombreif" value='Impulsando Valor Activecapital, S.A.P.I. de C.V., SOFOM, E.N.R.' /></span>
+                <span><input  type="hidden" id="idins"  name="idins"  value="14376" /></span></td><td valign="bottom">
+            </td></tr></table><table border='0' cellpadding='0' cellspacing='0'><tr><td>
+                <img src="../imgs/vineta.png" />&nbsp;Nombre Corto o Comercial  <br/><input type="text" disabled="disabled" readonly class="textboxif" style="width: 220px;" value="Impulsando Va" name="nomcorto" id="nomcorto" /></td><td>
+                <img src="../imgs/vineta.png" />&nbsp;Estatus                   <br/><input type="text" readonly class="textboxif" style="width: 330px;" value="En operación"   name="status"   id="status"   /></td><td>
+                <img src="../imgs/vineta.png" />&nbsp;RFC                       <br/><input type="text" readonly class="textboxif" style="width: 200px;" value="IVA1605131B9"      name="rfc"      id="rfc"      /></td><td>
+                <img src="../imgs/vineta.png" />&nbsp;Clave de Registro         <br/><input type="text" readonly class="textboxif" style="width: 130px;" value="694799"  name="cveshcp"  id="cveshcp" />
+            </td></tr></table><table border='0' cellpadding='0' cellspacing='0'><tr><td>
+                <img src="../imgs/vineta.png" />&nbsp;Sector Actividad Financiera <br/><input type="text" readonly class="textboxif" style="width: 410px;" value="Sociedades Financieras de Objeto Múltiple E.N.R." name="sector" id="sector"/></td><td>
+                <img src="../imgs/vineta.png" />&nbsp;Supervisora                 <br/><input type="text" readonly class="textboxif" style="width: 200px;" value="CONDUSEF" name="autsup" id="autsup"/></td><td>
+                <img src="../imgs/vineta.png" />&nbsp;Entidad                     <br/><input type="text" readonly class="textboxif" style="width: 150px;" value="Nacional"  name="tenti"  id="tenti"/></td><td>
+                <img src="../imgs/vineta.png" />&nbsp;Inicio operaciones          <br/><input type="text" readonly class="textboxif" style="width: 120px;" value="13/05/2016" name="finiop" id="finiop" /></td><td>
+            
+            </td></tr></table><table border='0' cellpadding='0' cellspacing='0'><tr><td>
+                <img src="../imgs/vineta.png" /> Página Internet        <br /><input type="text" readonly class="textboxif" value="www.impulsandovalor.com.mx"  style="cursor: pointer; text-decoration: underline; color: blue; width: 300px;" onclick="if(this.value!=''){abre_url(this.value);}" name="url"  id="url" /></td><td>
+                <img src="../imgs/vineta.png" /> Correo electrónico     <br /><input type="text" readonly class="textboxif" value="impulsandovalor@gmail.com" style="cursor: pointer; text-decoration: underline; color: blue; width: 300px;" onclick="if(this.value!=''){abre_mail(this.value);}"name="mail" id="mail"/>
+            </td></tr></table><table border='0' cellpadding='0' cellspacing='0'><tr><td>
+                <div id="tdsic">
+                <img src="../imgs/vineta.png" /> Datos de contrato con SIC<br />
+                <div class="boxsics"  >Círculo de Crédito, S.A. de C.V., Sociedad de Información Crediticia, Vigencia: 06/06/2016 - Indefinido - Último cumplimiento: 09/07/2018</div></div>
+            </td></tr></table><table border='0' cellpadding='0' cellspacing='0'><tr><td>
+            <td style="vertical-align: bottom;">
+                    <div class="textoculto" style="border: none; width: 290px; text-align: right;" id="ultactdg" >(generales modificados el 19/09/2016)</div>
+            </td></tr></table><table border='0' cellpadding='0' cellspacing='0'><tr><td>
+                    <div id="localiza" style="width: 920px; display: none; font-weight: bold; font-size: 25px; color: red; text-align: center">Institución no localizable</div></td><td>
+            </td></tr></table><br/>
+        </td></tr></table>
+    </div>
+</div>
+<div style="text-align: center;">
+<h3>Toda la información ha sido validada por la Institución el 05/07/2018</h3> </div><br/>
+<table id="navopc" border="0" cellpadding="0" cellspacing="1" align="center"><tr><td valign="top" align="center">
+    <table id="tablenav" width="99%" align="center" border="0">
+        <tr>
+            <td width="25%" id="navtd2" onclick="carga_datosins(2,4)" style="background-image:URL(../imgs/bknavtd.png)">DOMICILIOS</td>
+            <td width="25%" id="navtd3" onclick="carga_datosins(3,4)">ESCRITURAS</td>
+            <td width="25%" id="navtd4" onclick="carga_datosins(4,4)">FUNCIONARIOS</td>
+            <td width="25%" id="navtd1" onclick="carga_datosins(1,4)">OFICIOS</td>
+        </tr>
+    </table>
+</td></tr></table>
+</div>
+<!-------------------------------------------Oficios--------------------------------------------------->
+
+<div id="tab5" style="display: none;">
+    <div class="titsecc"><img src="../imgs/vineta.png" />&nbsp;Oficios</div>
+    <div class="slider-wrap">
+        <div class="wrapper">
+            <div id="divoficios"></div>
+        </div>
+    </div>
+</div>
+            
+<!-------------------------------------------Domicilios--------------------------------------------------->
+        
+<div id="tab2">
+    <div class="titsecc" ><img src="../imgs/vineta.png" />&nbsp;Domicilios</div>
+    <div class="slider-wrap">
+        <div class="wrapper">
+            <div id="divdomicilios"></div>
+        </div>
+    </div>
+</div>
+
+<!-------------------------------------------Escrituras--------------------------------------------------->
+            
+<div id="tab3">
+    <div class="titsecc"><img src="../imgs/vineta.png" />&nbsp;Escrituras</div>
+    <div class="slider-wrap">
+        <div class="wrapper">
+            <div id="divescrituras"></div>
+        </div>
+    </div>
+</div>
+
+<!---------------------------------------------------Funcionarios--------------------------------------------------->
+
+<div id="tab4">
+    <div class="titsecc"><img src="../imgs/vineta.png" />&nbsp;Consejo o Funcionarios</div>
+    <div class="slider-wrap">
+        <div class="wrapper">
+            <div id="divpodcargados"></div>
+        </div>
+    </div>
+</div>
+            
+<div class="wrapper">
+    <div style='float:left;'>Fecha de alta en el SIPRES     <input disabled class="textboxif" value="12/08/2016 10:28:46" type="text" style="width: 180px;" id="insfreg" name="insfreg"></div>
+    <!--<div style='float:right;'>Fecha de última < %=txtfact%> <input disabled class="textboxif" value="< %=insfact%>" type="text" style="width: 180px;" id="insfact" name="insfact"></div>-->
+    <br/><br/>&nbsp;&nbsp;&nbsp;
+    
+</div>
+</body>
+    
+</html> 
+    

@@ -1,0 +1,12 @@
+node_modules
+out.json
+out.log
+.serverless
+secrets.env
+deploy.sh
+ssh
+website/puppeteer_dev*
+api/_warmup
+vols/*/*
+vols/ignore/
+!vols/snapshots/esdata.json

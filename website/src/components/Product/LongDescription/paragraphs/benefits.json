@@ -1,0 +1,34 @@
+{
+    "sentences":[
+        {
+            "statement":"Para retirar tu préstamo puedes hacerlo mediante una {DispersalMethod}. ",
+            "position":1
+        },
+        {
+            "statement":"También cuentas con el servicio extra de domiciliación.",
+            "position":2
+        },
+        {
+            "statement":"Una vez solicites tu crédito podrás disponer de el a través de {{DispersalMethod}}. ",
+            "position":1
+        },
+        {
+            "statement":"Todo préstamo cuenta con sus ventajas y desventajas, siendo las de este préstamo las siguientes:",
+            "position":2
+        },        
+        {
+            "statement":"Podrás disponer de tu crédito a través de {{DispersalMethod}} ",
+            "position":1
+        },
+        {
+            "statement":"Entre los servicios complementarios existe {{FreeServicesDescription}}. ",
+            "position":1
+        },
+        {
+            "statement":"<p>Ventajas:<p> {{AdvantageList}}",
+            "position":3
+        }
+    ]
+}
+
+

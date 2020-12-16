@@ -1,0 +1,98 @@
+version: "3"
+services:
+  website:
+    build: website/
+    ports:
+      - 3000:3000
+    volumes:
+      - ./website:/var/app
+      - /var/app/node_modules
+    env_file: secrets.env      
+    depends_on:
+      - api
+      - elasticsearch
+  scraper:
+    build: scraper/
+    container_name: scraper
+    volumes:
+      - ./scraper/:/var/app
+      - /var/app/node_modules
+
+    environment:
+      - environment=development
+    depends_on:
+      - redis
+      - elasticsearch    
+  api:
+    build: api/    
+    container_name: api
+    ports:
+      - 9090:8080
+    volumes: 
+      - ./api/:/var/app
+      - /var/app/node_modules
+
+    depends_on:
+      - redis
+      - elasticsearch    
+    environment:
+      - environment=development
+    env_file: secrets.env    
+  redis:
+    image: redis:4.0.10
+    volumes:
+      - ./vols/redisdata:/data
+    ports:
+        - 6379:6379
+  redis-commander:
+    container_name: redis-commander
+    hostname: redis-commander
+    image: rediscommander/redis-commander:latest
+    restart: always
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+    ports:
+      - 9999:8081
+  esdump:
+    image: taskrabbit/elasticsearch-dump
+    env_file: secrets.env    
+    tty: true
+    stdin_open: true
+    environment:
+      - NODE_TLS_REJECT_UNAUTHORIZED=0
+    volumes:
+      - ./vols/snapshots:/tmp/snapshots/
+  esprod:
+    image: node:8.10.0
+    stdin_open: false
+    tty: true
+    volumes:
+      - ./vols/ignore/ssh:/root/.ssh:ro
+    expose:
+      - "9200" 
+    ports:
+      - 9201:9200                
+    entrypoint: ["ssh","-oStrictHostKeyChecking=no", "ubuntu@100.27.4.220", "-L", "0.0.0.0:9200:vpc-mexloans-i7extfu5wtds5atl4mv6v2fk2q.us-east-1.es.amazonaws.com:443"]
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:6.4.0
+    container_name: elasticsearch
+    environment:
+      - discovery.type=single-node
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - ./vols/esdata:/usr/share/elasticsearch/data
+    ports:
+      - 9200:9200      
+  kibana:
+    image: docker.elastic.co/kibana/kibana:6.4.0
+    environment:
+      SERVER_NAME: kibana
+      ELASTICSEARCH_URL: http://elasticsearch:9200
+    ports:
+      - 9998:5601
+    depends_on:
+      - elasticsearch

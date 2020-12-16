@@ -1,0 +1,75 @@
+{
+    "min_length":2,
+    "max_lenth": 2,
+    "position":1,
+    "sentences":[
+        {
+            "statement":"Un préstamo en un momento oportuno es una buena decisión.",
+            "position":1
+        },
+        {
+            "statement":"Un crédito en un momento oportuno es una buena decisión.",
+            "position":1
+        },
+        {
+            "statement":"Encontrar el préstamo correcto en el momento adecuado puede ser muy importante.",
+            "position":1
+        },
+        {
+            "statement":"Encontrar el crédito correcto en el momento adecuado puede ser muy importante.",
+            "position":1
+        },
+        {
+            "statement":"Tomar un préstamo es una decisión importante que merece una consideración cuidadosa.",
+            "position":1
+        },
+        {
+            "statement":"Tomar un crédito es una decisión importante que merece una consideración cuidadosa.",
+            "position":1
+        },
+        {
+            "statement":"Solicitar un préstamo es una decisión importante y que amerita gran responsabilidad.",
+            "position":1
+        },
+        {
+            "statement":"Solicitar un crédito puede resultar complicado ya que no conocemos de un buen crédito.",
+            "position":1
+        },
+        {
+            "statement":"Pedir un préstamo es una decisión importante y que debe tomarse con mucha calma, pero no debe descartarse ya que puede ser de utilidad en una diversidad de situaciones de la vida.",
+            "position":1
+        },
+        {
+            "statement":"Es importante entender los términos del préstamo que solicita. Lea la descripción para aprender sobre este préstamo.",
+            "position":1
+        }, 
+        {
+            "statement":"La entidad financiera {{LenderName}} tiene a su disposición un préstamo llamado {{LoanName}}, el cual es un préstamo de {{LoanCategory}}. ",
+            "position":2
+        },
+        {
+            "statement":"Una oferta de préstamo es {{LoanName}}, el cual es un producto de préstamo que se categoriza como un {{LoanCategory}}, ofrecida por {{LenderName}}",            
+            "position":2
+        },
+        {
+            "statement":"Una  opción en caso de necesitarlo es solicitar el {{LoanName}}, un tipo de {{LoanCategory}} y empresarial, proporcionado por la entidad financiera {{LenderName}}.",            
+            "position":2
+        },
+        {
+            "statement":"La entidad financiera {{LenderName}} ofrece el préstamo {{LoanName}} el cual es un producto de {{LoanCategory}}.",            
+            "position":2
+        },
+        {
+            "statement":"{{LoanName}} se trata de un {{LoanCategory}}  de la compañía {{LenderName}}, ubicada en {{LenderHomeState}}, México.",            
+            "position":2
+        },
+        {
+            "statement":"El {{LoanName}} de la firma {{LenderName}}, está dirigido hacia {{ApplicantType}} en {{CoverageAreaDescription}}, acreditada por más de {{RequiredTimeInJob}} de antigüedad laboral en la misma entidad",            
+            "position":2
+        }                     
+
+
+    ]
+}
+
+

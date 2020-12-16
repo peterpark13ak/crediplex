@@ -1,0 +1,64 @@
+{
+    "min_length":4,
+    "max_lenth": 4,
+    "position":1,
+    "sentences":[
+        {
+            "statement":"Este préstamo está disponible para el {{AvailableStates}}, y solo {{ApplicantType}}  pueden optar por él.",
+            "position":1
+        },
+        {
+            "statement":"De igual forma uno de los requisitos es que la persona que opta por el préstamo lleve más de {{TimeInJob}} en su empleo actual y que se realice una {{RequiresCreditCheck}}.",
+            "position":2
+        },
+
+        {
+            "statement":"",
+            "position":1
+        },
+        {
+            "statement":"Entre los requisitos para optar por este crédito está que se les otorga a {{ApplicantType}}, con una antigüedad laboral de {{TimeInJob}} con un ingreso mensual de {{MinMonthlyIncome}}.",
+            "position":2
+        },
+        {
+            "statement":"Para optar por este tipo de préstamo debes cumplir unos requisitos, los cuales son: {{RequirementList}}",
+            "position":3
+        },
+        {
+            "statement":"Para optar por este tipo de crédito debes cumplir unos requisitos, los cuales son: {{RequirementList}}",
+            "position":3
+        },
+        {
+            "statement":"Para solicitar este tipo de préstamo debes cumplir unos requisitos, los cuales son: {{RequirementList}}",
+            "position":3
+        },
+        {
+            "statement":"Para solicitar este tipo de crédito debes cumplir unos requisitos, los cuales son: {{RequirementList}}",
+            "position":3
+        },
+        {
+            "statement":"Para pedir este tipo de préstamo debes cumplir unos requisitos, los cuales son: {{RequirementList}}",
+            "position":3
+        },
+        {
+            "statement":"Para pedir este tipo de crédito debes cumplir unos requisitos, los cuales son: {{RequirementList}}",
+            "position":3
+        },
+        {
+            "statement":"Además de dichos requisitos debes poseer la siguiente documentación: {{DocumentationList}}",
+            "position":4
+        },        
+        {
+            "statement":"Para solicitar este crédito es necesario cumplir con los siguientes requisitos: {{RequirementList}}",
+            "position":3
+        },
+        {
+            "statement":"Una vez que has decido tomar un préstamo, debes poseer la siguiente documentación:{{DocumentationList}}",
+            "position":4
+        }
+         
+
+    ]
+}
+
+

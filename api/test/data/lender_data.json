@@ -1,0 +1,872 @@
+{
+    "name": "Financiera Maestra, S.A. de C.V. SOFOM, E.N.R.",
+    "external_id": 1864,
+    "lender_details_url": "https://webapps.condusef.gob.mx/SIPRES/jsp/home_publico.jsp?idins=1864",
+    "trade_association": "AMDEN",
+    "main_activity": "Crédito a la actividad empresarial",
+    "lender_product_link": "https://ifit.condusef.gob.mx/ifit/ftb_vista_institucion.php?idi=1864&ids=&idrt=16&idt=1&ida=2018",
+    "details": {
+        "short_name": "Crédito Maestro",
+        "status": "En operación",
+        "rfc": "FMA070601E46 ",
+        "shcp_key": "690202",
+        "sector": "Sociedades Financieras de Objeto Múltiple E.N.R.",
+        "supervisor": "CONDUSEF",
+        "entity": "Nacional",
+        "launch_date": "01/10/2007",
+        "website": "www.financieramaestra.com",
+        "email": "martha.barriga@creditomaestro.com",
+        "sic_data": "Círculo de Crédito, S.A. de C.V., Sociedad de Información Crediticia, Vigencia: 29/09/2009 - Indefinido - Último cumplimiento: 09/07/2018",
+        "generales_modificados": "(generales modificados el 30/03/2017)",
+        "sipres_start_date": "23/08/2007 14:37:00",
+        "addresses": [
+            {
+                "street": "Tiburcio Montiel",
+                "street_number": "14",
+                "suite": "",
+                "cross_street_a": "",
+                "cross_street_b": "",
+                "landmark": "",
+                "area_code": "55",
+                "phone_number": "5278-29-30; 5278-22-80",
+                "zipcode": "11850",
+                "colonia": "San Miguel Chapultepec II Sección",
+                "municipio": "Miguel Hidalgo",
+                "federal_entity": "Ciudad de México"
+            },
+            {}
+        ]
+    },
+    "product_categories": [
+        {
+            "id": "8",
+            "name": " Crédito personal ",
+            "products": [
+                {
+                    "updated_at": "Primer Trimestre 2018",
+                    "lender": {
+                        "logo": "http://e-portalif.condusef.gob.mx/SIPRES/LOGOS/1864_16939_2_3.png",
+                        "name": "Financiera Maestra, S.A. de C.V. SOFOM, E.N.R.",
+                        "sector": "Sociedades Financieras de Objeto Múltiple, E.N.R.",
+                        "website": "www.financieramaestra.com",
+                        "phone": "(0) 5552782930",
+                        "address": "Tiburcio Montiel  14 , Col. San Miguel Chapultepec II Sección, Del. Miguel Hidalgo, Ciudad de México, C.P. 11850"
+                    },
+                    "description": {
+                        "status": "Activa",
+                        "category": "Crédito personal",
+                        "subproduct": "Nómina",
+                        "name": "CONTRATO DE CREDITO SCT",
+                        "contrato_adhesion": true,
+                        "RECA": "1864-140-012599/04-09190-1115",
+                        "contrato_multiple": false
+                    },
+                    "details": {
+                        "term": "De 9  Hasta 48  Meses",
+                        "min_amount": "$ 2,000.00",
+                        "pay_period": "Quincenal,",
+                        "dispersal_method": "Sistema de Pago Electrónicos Interbancarios (SPEI),  Ventanilla,",
+                        "max_annual_interest": "58.5 %",
+                        "coverage_area": "Todos los Estados,",
+                        "payment_plan_type": "Constante,",
+                        "interest_type": "Fija,",
+                        "credit_use": "Libre,"
+                    },
+                    "requirements": {
+                        "applicant": {
+                            "age": "De 18  Hasta 65 años 11 meses",
+                            "type": "Personas Físicas,",
+                            "time_in_job": "1  Años",
+                            "min_monthly_income": "$ 2,500.00",
+                            "credit_check": true
+                        },
+                        "documents": {
+                            "id": "FM3 (Para extranjeros),  Cédula Profesional,  FM2 (Para extranjeros),  Pasaporte, Credencial IFE,",
+                            "proof_of_address": "Teléfono,  Gas,  Predial,  Luz,",
+                            "proof_of_income": "Recibo de Nómina,"
+                        }
+                    },
+                    "commissions": [
+                        {
+                            "concept": "El producto no preeve comisión alguna",
+                            "is_free": false,
+                            "free_ops": {
+                                "number": "0",
+                                "period": ""
+                            },
+                            "cost": {
+                                "currency": "",
+                                "fixed_amount": "",
+                                "factor": "",
+                                "factor_amount": "",
+                                "factor_reference": "No aplica",
+                                "period": "No aplica"
+                            },
+                            "cond": ""
+                        }
+                    ],
+                    "contract_costs": [
+                        {
+                            "concept": "El producto no preeve comisión alguna",
+                            "is_free": false,
+                            "free_ops": {
+                                "number": "0",
+                                "period": ""
+                            },
+                            "cost": {
+                                "currency": "",
+                                "fixed_amount": "",
+                                "factor": "",
+                                "factor_amount": "",
+                                "factor_reference": "No aplica",
+                                "period": "No aplica"
+                            },
+                            "cond": ""
+                        }
+                    ],
+                    "free_services": [],
+                    "scope_or_benefits": [
+                        "Pagos fijos durante el crédito"
+                    ],
+                    "restrictions": [
+                        "El comprobante no es un requisito obligatorio para todos los casos, solo aplica en las sig.cond 1.Para clientes con una antiguedad laboral de 25 a 29 aÃ±os, 11 meses y 29 dias 2.- En caso de que el titular indique otra direcciÃ³n",
+                        "Se requiere que el solicitante labore directamente para la SecretariÂ­a de Comunicaciones yTransportes y que continue vigente el conv. de colaboraciÃ³n celebrado entre Financiera Maestra, S.A. de C.V SOFOM, E.N.R. y dicha SecretarÃ­a"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "10",
+            "name": " Crédito simple ",
+            "products": [
+                {
+                    "updated_at": "Primer Trimestre 2018",
+                    "lender": {
+                        "logo": "http://e-portalif.condusef.gob.mx/SIPRES/LOGOS/1864_16939_2_3.png",
+                        "name": "Financiera Maestra, S.A. de C.V. SOFOM, E.N.R.",
+                        "sector": "Sociedades Financieras de Objeto Múltiple, E.N.R.",
+                        "website": "www.financieramaestra.com",
+                        "phone": "(0) 5552782930",
+                        "address": "Tiburcio Montiel  14 , Col. San Miguel Chapultepec II Sección, Del. Miguel Hidalgo, Ciudad de México, C.P. 11850"
+                    },
+                    "description": {
+                        "status": "Activa",
+                        "category": "Crédito simple",
+                        "subproduct": "No aplica",
+                        "name": "CONTRATO CRÉDITO DOMICILIACIÓN 2015",
+                        "contrato_adhesion": true,
+                        "RECA": "1864-439-021780/02-09196-1115",
+                        "contrato_multiple": false
+                    },
+                    "details": {
+                        "term": "De 12  Hasta 24  Meses",
+                        "min_amount": "$ 2,000.00",
+                        "pay_period": "Mensual,  Quincenal,",
+                        "dispersal_method": "Sistema de Pago Electrónicos Interbancarios (SPEI),",
+                        "max_annual_interest": "89.64 %",
+                        "coverage_area": "Todos los Estados,",
+                        "payment_plan_type": "Constante,",
+                        "interest_type": "Fija,",
+                        "credit_use": "Libre,"
+                    },
+                    "requirements": {
+                        "applicant": {
+                            "age": "De 18  Hasta 74 años 11 meses",
+                            "type": "Personas Físicas,",
+                            "time_in_job": "1  Años",
+                            "min_monthly_income": "$ 2,600.00",
+                            "credit_check": true
+                        },
+                        "documents": {
+                            "id": "Cédula Profesional,  FM3 (Para extranjeros),  Credencial IFE,  Pasaporte,  FM2 (Para extranjeros),",
+                            "proof_of_address": "Predial,  Luz,  Teléfono,  Gas,",
+                            "proof_of_income": "Estado de Cuenta,  Recibo de Nómina,"
+                        }
+                    },
+                    "commissions": [
+                        {
+                            "concept": "Gastos de cobranza (antes del siguiente corte y después de la fecha límite de pago)",
+                            "is_free": false,
+                            "free_ops": {
+                                "number": "",
+                                "period": ""
+                            },
+                            "cost": {
+                                "currency": "Pesos",
+                                "fixed_amount": "",
+                                "factor": "Porcentaje",
+                                "factor_amount": "5",
+                                "factor_reference": "Parcialidades",
+                                "period": "Por evento"
+                            },
+                            "cond": ""
+                        }
+                    ],
+                    "contract_costs": [],
+                    "free_services": [
+                        {
+                            "concept": "Domiciliación",
+                            "is_free": true,
+                            "free_ops": {
+                                "number": "0",
+                                "period": "Permanente"
+                            },
+                            "cost": {
+                                "currency": "",
+                                "fixed_amount": "",
+                                "factor": "",
+                                "factor_amount": "",
+                                "factor_reference": "",
+                                "period": ""
+                            },
+                            "cond": ""
+                        }
+                    ],
+                    "scope_or_benefits": [
+                        "Pagos fijos durante el crédito"
+                    ],
+                    "restrictions": [
+                        "El comprobante es un requisito obligatorio para todos los casos."
+                    ]
+                },
+                {
+                    "updated_at": "Primer Trimestre 2018",
+                    "lender": {
+                        "logo": "http://e-portalif.condusef.gob.mx/SIPRES/LOGOS/1864_16939_2_3.png",
+                        "name": "Financiera Maestra, S.A. de C.V. SOFOM, E.N.R.",
+                        "sector": "Sociedades Financieras de Objeto Múltiple, E.N.R.",
+                        "website": "www.financieramaestra.com",
+                        "phone": "(0) 5552782930",
+                        "address": "Tiburcio Montiel  14 , Col. San Miguel Chapultepec II Sección, Del. Miguel Hidalgo, Ciudad de México, C.P. 11850"
+                    },
+                    "description": {
+                        "status": "Activa",
+                        "category": "Crédito simple",
+                        "subproduct": "No aplica",
+                        "name": "CONTRATO CRÉDITO SIMPLE IMSS JUBILADOS LEY",
+                        "contrato_adhesion": true,
+                        "RECA": "1864-439-013902/04-09505-1115",
+                        "contrato_multiple": false
+                    },
+                    "details": {
+                        "term": "De 18  Hasta 60  Meses",
+                        "min_amount": "$ 2,000.00",
+                        "pay_period": "Mensual,",
+                        "dispersal_method": "Sistema de Pago Electrónicos Interbancarios (SPEI),",
+                        "max_annual_interest": "38.3 %",
+                        "coverage_area": "Todos los Estados,",
+                        "payment_plan_type": "Constante,",
+                        "interest_type": "Fija,",
+                        "credit_use": "Libre,"
+                    },
+                    "requirements": {
+                        "applicant": {
+                            "age": "De 18  Hasta 79 años 5 meses",
+                            "type": "Personas Físicas,",
+                            "time_in_job": "$ 1,000.00",
+                            "min_monthly_income": "",
+                            "credit_check": false
+                        },
+                        "documents": {
+                            "id": "Luz,  Teléfono,  Gas,  Predial,",
+                            "proof_of_address": "Recibo de Nómina,",
+                            "proof_of_income": ""
+                        }
+                    },
+                    "commissions": [
+                        {
+                            "concept": "El producto no preeve comisión alguna",
+                            "is_free": false,
+                            "free_ops": {
+                                "number": "0",
+                                "period": ""
+                            },
+                            "cost": {
+                                "currency": "",
+                                "fixed_amount": "",
+                                "factor": "",
+                                "factor_amount": "",
+                                "factor_reference": "No aplica",
+                                "period": "No aplica"
+                            },
+                            "cond": ""
+                        }
+                    ],
+                    "contract_costs": [
+                        {
+                            "concept": "El producto no preeve comisión alguna",
+                            "is_free": false,
+                            "free_ops": {
+                                "number": "0",
+                                "period": ""
+                            },
+                            "cost": {
+                                "currency": "",
+                                "fixed_amount": "",
+                                "factor": "",
+                                "factor_amount": "",
+                                "factor_reference": "No aplica",
+                                "period": "No aplica"
+                            },
+                            "cond": ""
+                        }
+                    ],
+                    "free_services": [],
+                    "scope_or_benefits": [
+                        "Pagos fijos durante el crédito"
+                    ],
+                    "restrictions": [
+                        "El comprobante de domicilio no es un requisito obligatorio, solo en el caso de que el titular indique otra dirección",
+                        "Se requiere que el solicitante sea jubilado bajo el régimen 73 del Instituto Mexicano del Seguro Social"
+                    ]
+                },
+                {
+                    "updated_at": "Primer Trimestre 2018",
+                    "lender": {
+                        "logo": "http://e-portalif.condusef.gob.mx/SIPRES/LOGOS/1864_16939_2_3.png",
+                        "name": "Financiera Maestra, S.A. de C.V. SOFOM, E.N.R.",
+                        "sector": "Sociedades Financieras de Objeto Múltiple, E.N.R.",
+                        "website": "www.financieramaestra.com",
+                        "phone": "(0) 5552782930",
+                        "address": "Tiburcio Montiel  14 , Col. San Miguel Chapultepec II Sección, Del. Miguel Hidalgo, Ciudad de México, C.P. 11850"
+                    },
+                    "description": {
+                        "status": "Activa",
+                        "category": "Crédito simple",
+                        "subproduct": "No aplica",
+                        "name": "CONTRATO TRADICIONAL 2014",
+                        "contrato_adhesion": true,
+                        "RECA": "1864-439-014782/04-09173-1115",
+                        "contrato_multiple": false
+                    },
+                    "details": {
+                        "term": "De 3  Hasta 60  Meses",
+                        "min_amount": "$ 2,000.00",
+                        "pay_period": "Mensual,  Quincenal,",
+                        "dispersal_method": "Sistema de Pago Electrónicos Interbancarios (SPEI),  Ventanilla,",
+                        "max_annual_interest": "52.7 %",
+                        "coverage_area": "Todos los Estados,",
+                        "payment_plan_type": "Constante,",
+                        "interest_type": "Fija,",
+                        "credit_use": "Libre,"
+                    },
+                    "requirements": {
+                        "applicant": {
+                            "age": "De 18  Hasta 76 años 11 meses",
+                            "type": "Personas Físicas,",
+                            "time_in_job": "1  Años",
+                            "min_monthly_income": "$ 2,500.00",
+                            "credit_check": true
+                        },
+                        "documents": {
+                            "id": "Credencial IFE,  Pasaporte,  FM2 (Para extranjeros),  Cédula Profesional,  FM3 (Para extranjeros),",
+                            "proof_of_address": "Predial,  Luz,  Teléfono,  Gas,",
+                            "proof_of_income": "Recibo de Nómina,"
+                        }
+                    },
+                    "commissions": [
+                        {
+                            "concept": "Pago anticipado/ prepago",
+                            "is_free": false,
+                            "free_ops": {
+                                "number": "",
+                                "period": ""
+                            },
+                            "cost": {
+                                "currency": "Pesos",
+                                "fixed_amount": "",
+                                "factor": "Porcentaje",
+                                "factor_amount": "5",
+                                "factor_reference": "Sobre el importe de pago adelantado",
+                                "period": "Por evento"
+                            },
+                            "cond": ""
+                        },
+                        {
+                            "concept": "Gastos de cobranza (antes del siguiente corte y después de la fecha límite de pago)",
+                            "is_free": false,
+                            "free_ops": {
+                                "number": "",
+                                "period": ""
+                            },
+                            "cost": {
+                                "currency": "Pesos",
+                                "fixed_amount": "",
+                                "factor": "Porcentaje",
+                                "factor_amount": "11",
+                                "factor_reference": "",
+                                "period": "Por evento"
+                            },
+                            "cond": ""
+                        }
+                    ],
+                    "contract_costs": [],
+                    "free_services": [],
+                    "scope_or_benefits": [
+                        "Pagos fijos durante el crédito"
+                    ],
+                    "restrictions": [
+                        "El comprobante de domicilio no es un req. obligatorio para todos los casos, solo aplica en las sig.condiciones 1.-Para clientes con una antig. laboral de 25 a 29 aÃ±os, 11 meses, 29 dÃÂ­as 2.En caso de que eltitular indique otra direcciÃÂ³n",
+                        "Se requiere que el solicitante  labore en una dependencia de gobierno o se encuentre afiliado a un sindicato con los que Financiera Maestra, S.A. de C.V. SOFOM, E.N.R. tenga celebrado un convenio de colaboración."
+                    ]
+                },
+                {
+                    "updated_at": "Primer Trimestre 2018",
+                    "lender": {
+                        "logo": "http://e-portalif.condusef.gob.mx/SIPRES/LOGOS/1864_16939_2_3.png",
+                        "name": "Financiera Maestra, S.A. de C.V. SOFOM, E.N.R.",
+                        "sector": "Sociedades Financieras de Objeto Múltiple, E.N.R.",
+                        "website": "www.financieramaestra.com",
+                        "phone": "(0) 5552782930",
+                        "address": "Tiburcio Montiel  14 , Col. San Miguel Chapultepec II Sección, Del. Miguel Hidalgo, Ciudad de México, C.P. 11850"
+                    },
+                    "description": {
+                        "status": "Activa",
+                        "category": "Crédito simple",
+                        "subproduct": "No aplica",
+                        "name": "CONTRATO TRADICIONAL ESTADO DE MÉXICO 2014",
+                        "contrato_adhesion": true,
+                        "RECA": "1864-439-014898/04-09180-1115",
+                        "contrato_multiple": false
+                    },
+                    "details": {
+                        "term": "De 6  Hasta 60  Meses",
+                        "min_amount": "$ 2,000.00",
+                        "pay_period": "Mensual,  Quincenal,",
+                        "dispersal_method": "Sistema de Pago Electrónicos Interbancarios (SPEI),  Ventanilla,",
+                        "max_annual_interest": "42 %",
+                        "coverage_area": "Todos los Estados,",
+                        "payment_plan_type": "Constante,",
+                        "interest_type": "Fija,",
+                        "credit_use": "Libre,"
+                    },
+                    "requirements": {
+                        "applicant": {
+                            "age": "De 18  Hasta 79 años 5 meses",
+                            "type": "Personas Físicas,",
+                            "time_in_job": "1  Años",
+                            "min_monthly_income": "$ 2,400.00",
+                            "credit_check": true
+                        },
+                        "documents": {
+                            "id": "FM2 (Para extranjeros),  Cédula Profesional,  FM3 (Para extranjeros),  CredencialIFE,  Pasaporte,",
+                            "proof_of_address": "Predial,  Luz,  Teléfono,  Gas,",
+                            "proof_of_income": "Recibo de Nómina,"
+                        }
+                    },
+                    "commissions": [
+                        {
+                            "concept": "El producto no preeve comisión alguna",
+                            "is_free": false,
+                            "free_ops": {
+                                "number": "0",
+                                "period": ""
+                            },
+                            "cost": {
+                                "currency": "",
+                                "fixed_amount": "",
+                                "factor": "",
+                                "factor_amount": "",
+                                "factor_reference": "No aplica",
+                                "period": "No aplica"
+                            },
+                            "cond": ""
+                        }
+                    ],
+                    "contract_costs": [
+                        {
+                            "concept": "El producto no preeve comisión alguna",
+                            "is_free": false,
+                            "free_ops": {
+                                "number": "0",
+                                "period": ""
+                            },
+                            "cost": {
+                                "currency": "",
+                                "fixed_amount": "",
+                                "factor": "",
+                                "factor_amount": "",
+                                "factor_reference": "No aplica",
+                                "period": "No aplica"
+                            },
+                            "cond": ""
+                        }
+                    ],
+                    "free_services": [],
+                    "scope_or_benefits": [
+                        "Pagos fijos durante el crédito"
+                    ],
+                    "restrictions": [
+                        "El comprobante de domicilio no es un requisito obligatorio para todos los casos, solo aplica en las sig. condiciones:1.Para Clientes con antigüedad laboral de 25 a 29 años, 11 meses y 29 días 2.En caso de queel titular indique otra direc.",
+                        "Se requiere que el solicitante labore en una dependencia de gobierno o se encuentre afiliado a un sindicato con los que Financiera Maestra, S.A. de C.V. SOFOM, E.N.R.  tenga celebrado un convenio de colaboración."
+                    ]
+                },
+                {
+                    "updated_at": "Primer Trimestre 2018",
+                    "lender": {
+                        "logo": "http://e-portalif.condusef.gob.mx/SIPRES/LOGOS/1864_16939_2_3.png",
+                        "name": "Financiera Maestra, S.A. de C.V. SOFOM, E.N.R.",
+                        "sector": "Sociedades Financieras de Objeto Múltiple, E.N.R.",
+                        "website": "www.financieramaestra.com",
+                        "phone": "(0) 5552782930",
+                        "address": "Tiburcio Montiel  14 , Col. San Miguel Chapultepec II Sección, Del. Miguel Hidalgo, Ciudad de México, C.P. 11850"
+                    },
+                    "description": {
+                        "status": "Activa",
+                        "category": "Crédito simple",
+                        "subproduct": "No aplica",
+                        "name": "MEJORA DE VIVIENDA C2",
+                        "contrato_adhesion": true,
+                        "RECA": "1864-439-026337/01-04554-1116",
+                        "contrato_multiple": false
+                    },
+                    "details": {
+                        "term": "De 12  Hasta 36  Meses",
+                        "min_amount": "$ 5,000.00",
+                        "pay_period": "Mensual,  Quincenal,",
+                        "dispersal_method": "Sistema de Pago Electrónicos Interbancarios (SPEI),  Tarjeta de Débito,",
+                        "max_annual_interest": "41.7 %",
+                        "coverage_area": "Estado de México,",
+                        "payment_plan_type": "Constante,",
+                        "interest_type": "Fija,",
+                        "credit_use": "Específico,"
+                    },
+                    "requirements": {
+                        "applicant": {
+                            "age": "De 18  Hasta 65 años 11 meses",
+                            "type": "Personas Físicas,",
+                            "time_in_job": "1  Años",
+                            "min_monthly_income": "$ 2,600.00",
+                            "credit_check": true
+                        },
+                        "documents": {
+                            "id": "Pasaporte,  Credencial IFE,  FM3 (Para extranjeros),  Cédula Profesional,  FM2 (Para extranjeros),",
+                            "proof_of_address": "Predial,  Luz,  Teléfono,  Gas,",
+                            "proof_of_income": "Estado de Cuenta,  Recibo de Nómina,"
+                        }
+                    },
+                    "commissions": [
+                        {
+                            "concept": "Gastos de cobranza (antes del siguiente corte y después de la fecha límite de pago)",
+                            "is_free": false,
+                            "free_ops": {
+                                "number": "",
+                                "period": ""
+                            },
+                            "cost": {
+                                "currency": "Pesos",
+                                "fixed_amount": "",
+                                "factor": "Porcentaje",
+                                "factor_amount": "11",
+                                "factor_reference": "",
+                                "period": "Por evento"
+                            },
+                            "cond": ""
+                        }
+                    ],
+                    "contract_costs": [
+                        {
+                            "concept": "Contratación o apertura",
+                            "is_free": false,
+                            "free_ops": {
+                                "number": "",
+                                "period": ""
+                            },
+                            "cost": {
+                                "currency": "Pesos",
+                                "fixed_amount": "",
+                                "factor": "Porcentaje",
+                                "factor_amount": "2",
+                                "factor_reference": "Sobre monto / línea de crédito",
+                                "period": "Única vez"
+                            },
+                            "cond": ""
+                        },
+                        {
+                            "concept": "Gastos de investigación y/o formalización",
+                            "is_free": false,
+                            "free_ops": {
+                                "number": "",
+                                "period": ""
+                            },
+                            "cost": {
+                                "currency": "Pesos",
+                                "fixed_amount": "",
+                                "factor": "Porcentaje",
+                                "factor_amount": "2.5",
+                                "factor_reference": "Sobre monto / línea de crédito",
+                                "period": "Única vez"
+                            },
+                            "cond": ""
+                        }
+                    ],
+                    "free_services": [],
+                    "scope_or_benefits": [
+                        "Pagos fijos durante el crédito"
+                    ],
+                    "restrictions": [
+                        "Se requiere que el solicitante labore en una dependencia de gobierno o se encuentre afiliado a un sindicato con los que Financiera Maestra, S.A. de C.V. SOFOM, E.N.R. tenga celebrado un convenio de colaboraciÃ³n."
+                    ]
+                },
+                {
+                    "updated_at": "Primer Trimestre 2018",
+                    "lender": {
+                        "logo": "http://e-portalif.condusef.gob.mx/SIPRES/LOGOS/1864_16939_2_3.png",
+                        "name": "Financiera Maestra, S.A. de C.V. SOFOM, E.N.R.",
+                        "sector": "Sociedades Financieras de Objeto Múltiple, E.N.R.",
+                        "website": "www.financieramaestra.com",
+                        "phone": "(0) 5552782930",
+                        "address": "Tiburcio Montiel  14 , Col. San Miguel Chapultepec II Sección, Del. Miguel Hidalgo, Ciudad de México, C.P. 11850"
+                    },
+                    "description": {
+                        "status": "Activa",
+                        "category": "Crédito simple",
+                        "subproduct": "No aplica",
+                        "name": "MEJORA DE VIVIENDA C3",
+                        "contrato_adhesion": true,
+                        "RECA": "1864-439-027288/01-02304-0517",
+                        "contrato_multiple": false
+                    },
+                    "details": {
+                        "term": "De 12  Hasta 36  Meses",
+                        "min_amount": "$ 5,000.00",
+                        "pay_period": "Mensual,  Quincenal,",
+                        "dispersal_method": "Sistema de Pago Electrónicos Interbancarios (SPEI),  Tarjeta de Débito,",
+                        "max_annual_interest": "41.7 %",
+                        "coverage_area": "Estado de México,",
+                        "payment_plan_type": "Constante,",
+                        "interest_type": "Fija,",
+                        "credit_use": "Específico,"
+                    },
+                    "requirements": {
+                        "applicant": {
+                            "age": "De 18  Hasta 65 años 11 meses",
+                            "type": "Personas Físicas,",
+                            "time_in_job": "1  Años",
+                            "min_monthly_income": "$ 2,600.00",
+                            "credit_check": true
+                        },
+                        "documents": {
+                            "id": "Cédula Profesional,  FM3 (Para extranjeros),  Credencial IFE,  Pasaporte,  FM2 (Para extranjeros),",
+                            "proof_of_address": "Teléfono,  Gas,  Predial,  Luz,",
+                            "proof_of_income": "Recibo de Nómina,"
+                        }
+                    },
+                    "commissions": [
+                        {
+                            "concept": "Gastos de cobranza (antes del siguiente corte y después de la fecha límite de pago)",
+                            "is_free": false,
+                            "free_ops": {
+                                "number": "",
+                                "period": ""
+                            },
+                            "cost": {
+                                "currency": "Pesos",
+                                "fixed_amount": "",
+                                "factor": "Porcentaje",
+                                "factor_amount": "11",
+                                "factor_reference": "",
+                                "period": "Por evento"
+                            },
+                            "cond": ""
+                        }
+                    ],
+                    "contract_costs": [
+                        {
+                            "concept": "Contratación o apertura",
+                            "is_free": false,
+                            "free_ops": {
+                                "number": "",
+                                "period": ""
+                            },
+                            "cost": {
+                                "currency": "Pesos",
+                                "fixed_amount": "",
+                                "factor": "Porcentaje",
+                                "factor_amount": "2",
+                                "factor_reference": "Sobre monto / línea de crédito",
+                                "period": "Única vez"
+                            },
+                            "cond": ""
+                        },
+                        {
+                            "concept": "Gastos de investigación y/o formalización",
+                            "is_free": false,
+                            "free_ops": {
+                                "number": "",
+                                "period": ""
+                            },
+                            "cost": {
+                                "currency": "Pesos",
+                                "fixed_amount": "",
+                                "factor": "Porcentaje",
+                                "factor_amount": "2.5",
+                                "factor_reference": "Sobre monto / línea de crédito",
+                                "period": "Única vez"
+                            },
+                            "cond": ""
+                        }
+                    ],
+                    "free_services": [],
+                    "scope_or_benefits": [
+                        "Pagos fijos durante el crédito"
+                    ],
+                    "restrictions": [
+                        "Se requiere que el solicitante labore en una dependencia de gob. o se encuentre  afiliado aun sindicato con los que Financiera Maestra, S.A. de C.V. SOFOM, E.N.R. tenga celebrado un conv. de colaboración"
+                    ]
+                },
+                {
+                    "updated_at": "Primer Trimestre 2018",
+                    "lender": {
+                        "logo": "http://e-portalif.condusef.gob.mx/SIPRES/LOGOS/1864_16939_2_3.png",
+                        "name": "Financiera Maestra, S.A. de C.V. SOFOM, E.N.R.",
+                        "sector": "Sociedades Financieras de Objeto Múltiple, E.N.R.",
+                        "website": "www.financieramaestra.com",
+                        "phone": "(0) 5552782930",
+                        "address": "Tiburcio Montiel  14 , Col. San Miguel Chapultepec II Sección, Del. Miguel Hidalgo, Ciudad de México, C.P. 11850"
+                    },
+                    "description": {
+                        "status": "Activa",
+                        "category": "Crédito simple",
+                        "subproduct": "No aplica",
+                        "name": "NACIONAL",
+                        "contrato_adhesion": true,
+                        "RECA": "1864-439-027509/02-00156-0118",
+                        "contrato_multiple": false
+                    },
+                    "details": {
+                        "term": "De 12  Hasta 48  Meses",
+                        "min_amount": "$ 5,000.00",
+                        "pay_period": "Mensual,  Quincenal,",
+                        "dispersal_method": "Sistema de Pago Electrónicos Interbancarios (SPEI),  Ventanilla,",
+                        "max_annual_interest": "43.58 %",
+                        "coverage_area": "Hidalgo,",
+                        "payment_plan_type": "Constante,",
+                        "interest_type": "Fija,",
+                        "credit_use": "Libre,"
+                    },
+                    "requirements": {
+                        "applicant": {
+                            "age": "De 18  Hasta 65 años 11 meses",
+                            "type": "Personas Físicas,",
+                            "time_in_job": "1  Años",
+                            "min_monthly_income": "$ 1,500.00",
+                            "credit_check": true
+                        },
+                        "documents": {
+                            "id": "FM2 (Para extranjeros),  Cédula Profesional,  FM3 (Para extranjeros),  CredencialIFE,  Pasaporte,",
+                            "proof_of_address": "Predial,  Luz,  Teléfono,  Gas,",
+                            "proof_of_income": "Recibo de Nómina,"
+                        }
+                    },
+                    "commissions": [],
+                    "contract_costs": [
+                        {
+                            "concept": "Contratación o apertura",
+                            "is_free": false,
+                            "free_ops": {
+                                "number": "",
+                                "period": ""
+                            },
+                            "cost": {
+                                "currency": "Pesos",
+                                "fixed_amount": "",
+                                "factor": "Porcentaje",
+                                "factor_amount": "2",
+                                "factor_reference": "Sobre monto / línea de crédito",
+                                "period": "Única vez"
+                            },
+                            "cond": ""
+                        }
+                    ],
+                    "free_services": [],
+                    "scope_or_benefits": [
+                        "Pagos fijos durante el crédito"
+                    ],
+                    "restrictions": [
+                        "El comprobante de domicilio no es un req. obligatorio solo aplica para en las sig. condiciones 1) Para clientes con una antigüedad laboral de 25 a 29 años 11 meses y 29 días  y 2) En caso de que el titular indique otra dirección.",
+                        "Se requiere que el solicitante labore en una Dependencia de gobierno o se encuentre afiliado a un sindicato con los que Financiera Maestra, S.A. de C.V. SOFOM, E.N.R. tenga celebrado un Conv. de Colaboración."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "18",
+            "name": " Tarjeta de Crédito ",
+            "products": [
+                {
+                    "updated_at": "Primer Trimestre 2018",
+                    "lender": {
+                        "logo": "http://e-portalif.condusef.gob.mx/SIPRES/LOGOS/1864_16939_2_3.png",
+                        "name": "Financiera Maestra, S.A. de C.V. SOFOM, E.N.R.",
+                        "sector": "Sociedades Financieras de Objeto Múltiple, E.N.R.",
+                        "website": "www.financieramaestra.com",
+                        "phone": "(0) 5552782930",
+                        "address": "Tiburcio Montiel  14 , Col. San Miguel Chapultepec II Sección, Del. Miguel Hidalgo, Ciudad de México, C.P. 11850"
+                    },
+                    "description": {
+                        "status": "Activa",
+                        "category": "Tarjeta de Crédito",
+                        "subproduct": "Clásica",
+                        "name": "TARJETA MAESTRA 2",
+                        "contrato_adhesion": true,
+                        "RECA": "1864-004-028374/01-06069-1117",
+                        "contrato_multiple": false
+                    },
+                    "details": {
+                        "term": "Quincenal,",
+                        "min_amount": "Tarjeta de Crédito,",
+                        "pay_period": "60 %",
+                        "dispersal_method": "Guerrero,",
+                        "max_annual_interest": "7.7 %",
+                        "coverage_area": "Fija,",
+                        "payment_plan_type": "Libre,",
+                        "interest_type": "",
+                        "credit_use": ""
+                    },
+                    "requirements": {
+                        "applicant": {
+                            "age": "De 18  Hasta 65 años 11 meses",
+                            "type": "Personas Físicas,",
+                            "time_in_job": "1  Años",
+                            "min_monthly_income": "$ 2,500.00",
+                            "credit_check": true
+                        },
+                        "documents": {
+                            "id": "Predial,  Luz,  Teléfono,  Gas,",
+                            "proof_of_address": "Recibo de Nómina,",
+                            "proof_of_income": ""
+                        }
+                    },
+                    "commissions": [
+                        {
+                            "concept": "Reposición de Tarjeta por Robo y/o Extravío",
+                            "is_free": false,
+                            "free_ops": {
+                                "number": "",
+                                "period": ""
+                            },
+                            "cost": {
+                                "currency": "Pesos",
+                                "fixed_amount": "150",
+                                "factor": "",
+                                "factor_amount": "",
+                                "factor_reference": "No aplica",
+                                "period": "Por evento"
+                            },
+                            "cond": ""
+                        }
+                    ],
+                    "contract_costs": [],
+                    "free_services": [],
+                    "scope_or_benefits": [
+                        "Pagos fijos durante el crédito"
+                    ],
+                    "restrictions": [
+                        "*Se requiere que el solicitante labore en una dependencia de gobierno o se encuentre afiliado a un sindicato con los que Financiera Maestra, S.A. de C.V. SOFOM, E.N.R. tenga celebrado un convenio de colaboración"
+                    ]
+                }
+            ]
+        }
+    ]
+}

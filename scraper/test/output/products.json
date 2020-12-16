@@ -1,0 +1,98 @@
+[
+    {"sub_product_name":"-","sub_product_id":"26","name":"PRESTAMOS RELAMPAGO ","id":"3036","details_url":"https://ifit.condusef.gob.mx/ifit/ft_general_final.php?idnc=3036&t=17&b=1",
+    "product":{"updated_at":"Segundo Trimestre 2018","lender":{"logo":"http://e-portalif.condusef.gob.mx/SIPRES/LOGOS/2380_16943_2_3.png","name":"Red de Servicios Financieros, S.A. de C.V., SOFOM E.N.R","sector":"Sociedades Financieras de Objeto Múltiple, E.N.R.","website":"","phone":"(0) 8183631962                           (0) 8183631966","address":"San Lorenzo 114 P.B. - B, Col. Residencial Santa Bárbara 1 Sector, Del. San Pedro Garza García, Nuevo León, C.P. 66266"},"description":{"status":"Activa","category":"Crédito simple","subproduct":"No aplica","name":"PRESTAMOS RELAMPAGO","contrato_adhesion":true,"RECA":"2380-439-003278/02-10809-1215","contrato_multiple":false},"details":{"term":{"from":6,"to":24,"units":"Meses"},"min_amount":2000,"pay_period":["Mensual","Semanal"],"dispersal_method":["Cheques"],"max_annual_interest":114,"coverage_area":["Aguascalientes","Chihuahua","Coahuila","Durango","Guanajuato","Nuevo León","Querétaro","San Luis Potosí","Tamaulipas","Yucatán"],"payment_plan_type":["Constante"],"interest_type":["Fija"],"credit_use":["Libre"]},"requirements":{"applicant":{"age":{"from_year":18,"from_month":0,"to_year":70,"to_month":0},"type":["Personas Físicas","Persona física con actividad empresarial"],"time_in_job":"6  Meses","min_monthly_income":2000,"credit_check":true},"documents":{"id":["Credencial IFE","Pasaporte"],"proof_of_address":["Gas","Luz","Teléfono"],"proof_of_income":["Recibo de Nómina","Estado de Cuenta"]}},"commissions":[],"contract_costs":[{"concept":"Contratación o apertura","is_free":false,"free_ops":{"number":"","period":""},"cost":{"currency":"Pesos","fixed_amount":"","factor":"Porcentaje","factor_amount":"13","factor_reference":"Sobre el capital total","period":"Única vez"},"cond":""}],"free_services":[],"scope_or_benefits":["Reducción de intereses","Reducción de plazos","Pagos fijos durante el crédito","Financiamiento de comisión de apertura","Ampliación línea de crédito a los 3 meses","Mejor tasa interés por buen comportamiento en la línea de crédito"],"restrictions":["Exclusivo para clientes"]}},
+    
+    {
+        "sub_product_name":"-",
+        "sub_product_id":"26","name":"SOLIDAR ","id":"3067","details_url":"https://ifit.condusef.gob.mx/ifit/ft_general_final.php?idnc=3067&t=17&b=1",
+        "product":{
+            "updated_at":"Segundo Trimestre 2018",
+            "lender":{
+                "logo":"http://e-portalif.condusef.gob.mx/SIPRES/LOGOS/2380_16943_2_3.png",
+                "name":"Red de Servicios Financieros, S.A. de C.V., SOFOM E.N.R",
+                "sector":"Sociedades Financieras de Objeto Múltiple, E.N.R.",
+                "website":"",
+                "phone":"(0) 8183631962                           (0) 8183631966",
+                "address":"San Lorenzo 114 P.B. - B, Col. Residencial Santa Bárbara 1 Sector, Del. San Pedro Garza García, Nuevo León, C.P. 66266"
+            },
+            "description":{
+                "status":"Activa",
+                "category":"Crédito simple",
+                "subproduct":"No aplica",
+                "name":"SOLIDAR",
+                "contrato_adhesion":true,
+                "RECA":"2380-439-004952/04-00294-0117",
+                "contrato_multiple":false
+            },
+            "details":{
+                "term":{
+                    "from":1,
+                    "to":4,
+                    "units":"Meses"
+                },
+                "min_amount":1000,
+                "pay_period":["Semanal"],
+                "dispersal_method":["Cheques"],
+                "max_annual_interest":121.2,
+                "coverage_area":["Estado de México","Guanajuato","Hidalgo","Nuevo León","Oaxaca","Puebla","Querétaro","Tamaulipas","Tlaxcala","Veracruz"],
+                "payment_plan_type":["Constante"],
+                "interest_type":["Fija"],
+                "credit_use":["Específico"]
+            },
+            "requirements":{
+                "applicant":{
+                    "age":{
+                        "from_year":18,
+                        "from_month":0,
+                        "to_year":99,
+                        "to_month":0
+                    },
+                    "type":["Persona física con actividad empresarial","Personas Físicas"],
+                    "time_in_job":"2  Meses",
+                    "min_monthly_income":0,
+                    "credit_check":true
+                },
+                "documents":{
+                    "id":["Credencial IFE"],
+                    "proof_of_address":["Gas","Teléfono","Luz"]
+                }
+            },
+            "commissions":[{
+                "concept":"El producto no preeve comisión alguna",
+                "is_free":false,
+                "free_ops":{
+                    "number":"0",
+                    "period":""
+                },
+                "cost":{
+                    "currency":"",
+                    "fixed_amount":"",
+                    "factor":"",
+                    "factor_amount":"",
+                    "factor_reference":"No aplica",
+                    "period":"No aplica"},
+                    "cond":""
+                }],
+                "contract_costs":[
+                    {
+                        "concept":"El producto no preeve comisión alguna",
+                        "is_free":false,
+                        "free_ops":{
+                            "number":"0",
+                            "period":""
+                        },
+                        "cost":{
+                            "currency":"",
+                            "fixed_amount":"",
+                            "factor":"",
+                            "factor_amount":"",
+                            "factor_reference":"No aplica",
+                            "period":"No aplica"},"cond":""
+                        }
+                ],
+            "free_services":[],
+            "scope_or_benefits":["Reducción de plazos","Pagos fijos durante el crédito"],
+            "restrictions":["Exclusivo para clientes","Requiere de avales o garantías"]
+        }
+    }
+]

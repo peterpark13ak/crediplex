@@ -1,0 +1,48 @@
+{
+  "name": "lender-service",
+  "version": "1.0.0",
+  "description": "provides info about a lender",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Raul Reynoso",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.3",
+    "bull": "^3.4.2",
+    "cheerio": "^1.0.0-rc.2",
+    "cors": "2.8.5",
+    "crypto": "^1.0.1",
+    "elasticsearch": "^15.1.1",
+    "encoding": "^0.1.12",
+    "express": "^4.16.3",
+    "html-entities": "^1.2.1",
+    "joi": "^14.0.6",
+    "just-throttle": "^1.1.0",
+    "kue": "^0.11.6",
+    "lodash": "^4.17.11",
+    "object-hash": "^1.3.1",
+    "pg": "^7.4.3",
+    "pg-hstore": "^2.3.2",
+    "postmark": "^2.2.4",
+    "query-string": "^6.1.0",
+    "redis": "^2.8.0",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2",
+    "sequelize": "^4.38.0",
+    "serverless": "^1.36.0",
+    "serverless-http": "^1.8.0",
+    "serverless-plugin-warmup": "^4.5.3-rc.1",
+    "utf8": "^3.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.17.5",
+    "sinon": "^6.3.1",
+    "why-is-node-running": "^2.0.2"
+  }
+}

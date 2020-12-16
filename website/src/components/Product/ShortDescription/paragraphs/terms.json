@@ -1,0 +1,59 @@
+{
+    "min_length":2,
+    "max_lenth": 2,
+    "sentences":[  
+        {
+            "statement":"Este préstamo es válido para personas entre {{AgeRequirement}} años de edad que tengan un ingreso mínimo de {{min_monthly_income}} por mes.",            
+            "position":1
+        },      
+        {
+            "statement":"El plazo del préstamo es desde {{loan_term_display}}, con un monto mínimo de crédito de {{minimum_amount}}, disponible  para la localidad de {{coverage_area_description}}. ",            
+            "position":1,
+            "variables":[
+                "loan_term_display",
+                "minimum_amount",
+                "coverage_area_description"
+            ]
+        },
+        {
+            "statement":"La duración del préstamo es de {{loan_term_display}}, siendo el monto mínimo del préstamo $ {{minimum_amount}}, a ser pagado en un período {{pay_period_description}}, de forma {{payment_plan_type_description}} y con una tasa de intereses {{interest_type_description}} (maxima anual de {{max_interest_rate}}). ",            
+            "position":1,
+            "variables":[
+                "loan_term_display",
+                "minimum_amount",
+                "coverage_area_description",
+                "pay_period_description",
+                "payment_plan_type_description"
+            ]            
+        },
+        {
+            "statement":"Se trata de un crédito con un plazo entre {{loan_term_display}}, cuyo monto mínimo es de {{minimum_amount}}, con una periodicidad de pago mensual y constante, con cobertura en {{coverage_area_description}}.",            
+            "position":1,
+            "variables":[
+                "loan_term_display",
+                "minimum_amount",
+                "coverage_area_description"
+            ]
+        },                  
+        {
+            "statement":"La tasa de intereses es {{interest_type_description}} (siendo  la máxima anual de {{max_interest_rate}}) y con un destino de crédito {{destino_de_credito}}.",            
+            "position":2,
+            "variables":[
+                "pay_period_description",
+                "destino_de_credito",
+                "max_interest_rate",
+                "interest_type_description"
+            ]
+        },
+        {
+            "statement":"El pago del préstamo debe ser {{pay_period_description}} y de forma {{payment_plan_type_description}}, con una tasa de {{interest_type_description}} (máxima anual del {{max_interest_rate}}).",            
+            "position":2,
+            "variables":[
+                "pay_period_description",
+                "payment_plan_type_description",
+                "interest_type_description",
+                "max_interest_rate"
+            ]
+        }        
+    ]
+}
